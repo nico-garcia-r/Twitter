@@ -18,8 +18,8 @@ jobs:
           python -m pip install pytest
       - name: Run tests
         run: |
-          if [ -d "tests" ]; then
-            python -m pytest tests/
+          if [ -d "Tests" ]; then
+            python -m pytest Tests/
           fi
       - name: Check for required files and directories
         run: |
